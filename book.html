@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="book.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header booking-header">
+        <nav>
+            <a href="#"><img src="./images/logo.png" alt=""></a>
+    
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="./seasons.html">SEASONS</a></li>
+                    <li><a href="./book.html" class="btn_book">BOOK</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+    
+            <form class="d-flex">
+                <input class="form-control " type="text" placeholder="Search">
+                <button class="btn" type="button">Search</button>
+            </form>
+        </nav>
+    
+        <div class="text-box">
+            <h1>Let's Travel</h1>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <section class="packages" id="packages">
+        <div class="container">
+    
+            <div class="main-txt">
+                <h1><span>P</span>ackages</h1>
+            </div>
+    
+            <div class="row" style="margin-top: 30px;">
+    
+                <div class="col-md-4 py-3 py-md-0">
+    
+                    <div class="card">
+                        <img src="./images/uk.png" alt="" width="400px" height="300px">
+                        <div class="card-body">
+                            <h3>United Kingdom</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, doloribus!</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>$500</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+    
+                    <div class="card">
+                        <img src="./images/france.png" alt="" width="400px" height="300px">
+                        <div class="card-body">
+                            <h3>France</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, doloribus!</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>$500</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+    
+                    <div class="card">
+                        <img src="./images/pakistan.png" alt="" width="400px" height="300px">
+                        <div class="card-body">
+                            <h3>Pakistan</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, doloribus!</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>$500</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+    
+                </div>
+    
+    
+    
+            </div>
+
+            <div class="row" style="margin-top: 30px;">
+    
+                <div class="col-md-4 py-3 py-md-0">
+    
+                    <div class="card">
+                        <img src="./images/italy.png" alt="" width="400px" height="300px">
+                        <div class="card-body">
+                            <h3>Italy</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, doloribus!</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>$500</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+    
+                    <div class="card">
+                        <img src="./images/india.png" alt="" width="400px" height="300px" >
+                        <div class="card-body">
+                            <h3>India</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, doloribus!</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>$500</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+    
+                    <div class="card">
+                        <img src="./images/us.png" alt="" width="400px" height="300px">
+                        <div class="card-body">
+                            <h3>United States</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, doloribus!</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>$500</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    <!-- Section Packages End -->
+
+    <!-- booking form -->
+    <section class="booking">
+        <h1 class="heading-title">book your trip!</h1>
+        <form action="" class="book-form">
+
+            <div class="flex">
+                <div class="inputBox">
+                    <span>name :</span>
+                    <input type="text" placeholder="Enter Your Name" name="name">
+                </div>
+                <div class="inputBox">
+                    <span>email :</span>
+                    <input type="text" placeholder="Enter Your Email" name="email">
+                </div>
+                <div class="inputBox">
+                    <span>phone :</span>
+                    <input type="text" placeholder="Enter Your Number" name="phone">
+                </div>
+                <div class="inputBox">
+                    <span>address :</span>
+                    <input type="text" placeholder="Enter Your Address" name="address">
+                </div>
+                <div class="inputBox">
+                    <span>where to :</span>
+                    <input type="text" placeholder="Place you want to visit" name="location">
+                </div>
+                <div class="inputBox">
+                    <span>how many :</span>
+                    <input type="number" placeholder="number of guests" name="guests">
+                </div>
+                <div class="inputBox">
+                    <span>arrivals :</span>
+                    <input type="date" name="arrivals">
+                </div>
+                <div class="inputBox">
+                    <span>leaving :</span>
+                    <input type="date" name="leaving">
+                </div>
+            </div>
+
+            <input type="submit" value="submit" class="btn" name="send">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <img src="./images/logo.png" alt="" class="logo">
+            <h4>Contact</h4>
+            <p> <strong> Address:</strong> Nellore, India</p>
+            <p> <strong> Phone: </strong> +91-1234567890</p>
+            <p> <strong> Hours:</strong> 10:00 - 18:00, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Travelling</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+    
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Destinations</a>
+            <a href="#">My Plans</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Vistings</a>
+            <a href="#">Help</a>
+        </div>
+    
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/pay/app.jpg" alt="">
+                <img src="images/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/pay/pay.png" alt="">
+        </div>
+    
+        <div class="copyright">
+            <p>Created By @Team Mohith | All rights are reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-300px"
+        }
+    </script>
+</body>
+</html>

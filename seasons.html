@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="seasons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header seasons_header">
+        <nav>
+            <a href="#"><img src="./images/logo.png" alt=""></a>
+    
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="./seasons.html">SEASONS</a></li>
+                    <li><a href="./book.html" class="btn_book">BOOK</a></li>
+                </ul>
+    
+    
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+    
+            <form class="d-flex">
+                <input class="form-control " type="text" placeholder="Search">
+                <button class="btn" type="button">Search</button>
+            </form>
+        </nav>
+    
+        <div class="text-box">
+            <h1>Let's know about seasons...</h1>
+            <p>Seasons play a significant role in travel experiences as they greatly affect the climate, local attractions, and the
+            overall ambiance of a destination
+            </p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="video-container">
+            <video src="images/about-vid-1.mp4" muted autoplay loop class="video"></video>
+            <div class="controls">
+                <span class="control-btn" data-src="images/about-vid-1.mp4"></span>
+                <span class="control-btn" data-src="images/about-vid-2.mp4"></span>
+                <span class="control-btn" data-src="images/about-vid-3.mp4"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Gallary Start -->
+    <section class="gallary" id="gallary">
+        <div class="container">
+    
+            <div class="main-txt">
+                <h1 class="gallary-heading"><span>G</span>allery</h1>
+            </div>
+    
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/g1.png" alt="" height="230px">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/g2.png" alt="" height="230px">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/g3.png" alt="" height="230px">
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/g4.png" alt="" height="230px">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/g5.png" alt="" height="230px">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/g6.png" alt="" height="230px">
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    <!-- Section Gallary End -->
+
+    <!-- Seasons -->
+    <section class="seasons">
+        <h2 class="season_heading">SEASONS</h2>
+        <div class="season">
+            <div class="box">
+                <div>
+                    <div class="box_each">
+                        <a href=""><img src="./images/des-2.jpg" alt="summer" width="550px" height="300px"></a>
+                        <div class="layer">
+                            <h3 class="season_heading">SUMMER</h3>
+                        </div>
+                    </div>
+                    <a href="./summer.html" class="links">Know More</a>
+                </div>
+                <div>
+                    <div class="box_each">
+                        <a href=""><img src="./images/des-4.jpg" alt="summer" width="550px" height="300px"></a>
+                        <div class="layer">
+                            <h3 class="season_heading">WINTER</h3>
+                        </div>
+                    </div>
+                    <a href="./winter.html" class="links">Know More</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div>
+                    <div class="box_each">
+                        <a href=""><img src="./images/spring_main.jpg" alt="summer" width="550px" height="300px"></a>
+                        <div class="layer">
+                            <h3 class="season_heading">SPRING</h3>
+                        </div>
+                    </div>
+                    <a href="./spring.html" class="links">Know More</a>
+                </div>
+                <div>
+                    <div class="box_each">
+                        <a href=""><img src="./images/monsoon_main.jpg" alt="summer" width="550px" height="300px"></a>
+                        <div class="layer">
+                            <h3 class="season_heading">MONSOON</h3>
+                        </div>
+                    </div>
+                    <a href="./monsoon.html" class="links">Know More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <img src="./images/logo.png" alt="" class="logo">
+            <h4>Contact</h4>
+            <p> <strong> Address:</strong> Nellore, India</p>
+            <p> <strong> Phone: </strong> +91-1234567890</p>
+            <p> <strong> Hours:</strong> 10:00 - 18:00, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Travelling</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+    
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Destinations</a>
+            <a href="#">My Plans</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Vistings</a>
+            <a href="#">Help</a>
+        </div>
+    
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/pay/app.jpg" alt="">
+                <img src="images/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/pay/pay.png" alt="">
+        </div>
+    
+        <div class="copyright">
+            <p>Created By @Team Mohith | All rights are reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-300px"
+        }
+    </script>
+
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header maindiv">
+        <nav>
+            <a href="#"><img src="./images/logo.png" alt=""></a>
+    
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="./seasons.html">SEASONS</a></li>
+                    <li><a href="./book.html" class="btn_book">BOOK</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            <form class="d-flex">
+                <input class="form-control " type="text" placeholder="Search">
+                <button class="btn" type="button">Search</button>
+            </form>
+        </nav>
+    
+        <div class="text-box">
+            <h1>Visit <span class="changecontent"></span></h1>
+            <p>ONE STOP FOR TRAVEL... <br> Travelling allows you to explore new places, experience different cultures, and create lasting memories. <br> Whether it's
+            for leisure or work, travelling can broaden your horizons and offer unique perspectives.
+            </p>
+            <a href="./contact.html" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <!-- Seasons -->
+    <section class="seasons">
+        <h2 class="season_heading">SEASONS</h2>
+        <div class="season">
+            <div class="box">
+                <div>
+                <div class="box_each">
+                    <a href=""><img src="./images/summer_main.png" alt="summer" width="550px" height="300px"></a>
+                    <div class="layer">
+                        <h3 class="season_heading">SUMMER</h3>
+                    </div>
+                </div>
+                </div>
+                <div>
+                <div class="box_each">
+                    <a href=""><img src="./images/winter_main.png" alt="summer" width="550px" height="300px"></a>
+                    <div class="layer">
+                        <h3 class="season_heading">WINTER</h3>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+            <div class="box">
+                <div>
+                <div class="box_each">
+                    <a href=""><img src="./images/spring_main.jpg" alt="summer" width="550px" height="300px"></a>
+                    <div class="layer">
+                        <h3 class="season_heading">SPRING</h3>
+                    </div>
+                </div>
+                </div>
+                <div>
+                <div class="box_each">
+                    <a href=""><img src="./images/monsoon_main.jpg" alt="summer" width="550px" height="300px"></a>
+                    <div class="layer">
+                        <h3 class="season_heading">MONSOON</h3>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="testimonials">
+        <h1>What Our Clients Say</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, tenetur.</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="./images/user-1.jpg" alt="">
+                <div>
+                    <p>I recently booked a trip through this travel website and had an amazing experience! The booking process was so easy and
+                    straightforward, and I was able to find the perfect vacation package for my family. The customer service was top-notch,
+                    with friendly and knowledgeable representatives </p>
+                    <h3>Christine Berkley</h3>
+                </div>
+                <div class="products_star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="./images/user-2.jpg" alt="">
+                <div>
+                    <p>I cannot say enough good things about this travel website! I have used them multiple times to book my vacations, and
+                    they never disappoint. The website is user-friendly and offers a wide variety of travel options at competitive prices.</p>
+                    <h3>David Bayer</h3>
+                </div>
+                <div class="products_star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest <span> updates. </span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your Email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <img src="./images/logo.png" alt="" class="logo">
+            <h4>Contact</h4>
+            <p> <strong> Address:</strong> Nellore, India</p>
+            <p> <strong> Phone: </strong> +91-1234567890</p>
+            <p> <strong> Hours:</strong> 10:00 - 18:00, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Travelling</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+    
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Destinations</a>
+            <a href="#">My Plans</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Vistings</a>
+            <a href="#">Help</a>
+        </div>
+    
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/pay/app.jpg" alt="">
+                <img src="images/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/pay/pay.png" alt="">
+        </div>
+    
+        <div class="copyright">
+            <p>Created By @Team Mohith | All rights are reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-300px"
+        }
+    </script>
+
+    <script src="./app.js"></script>
+</body>
+</html>

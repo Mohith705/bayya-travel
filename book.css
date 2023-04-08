@@ -1,0 +1,157 @@
+html{
+    font-size: 73%;
+}
+
+.booking-header{
+    background-image: url("./images/booking.jpg");
+}
+
+.packages{
+    width: 80%;
+    margin: auto;
+}
+
+.main-txt h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+
+.main-txt h1 span {
+    color: #4d4d4c;
+}
+
+.packages .card {
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.packages .card img {
+    border-radius: 5px;
+}
+
+.packages .card .card-body {
+    background: transparent;
+}
+
+.packages .card .card-body h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.packages .card .card-body p {
+    font-size: 15px;
+}
+
+.checked {
+    color: #047172;
+}
+
+.star i {
+    font-size: 15px;
+}
+
+.packages .card .card-body h6 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.packages .card .card-body a {
+    padding: 10px;
+    text-decoration: none;
+    background: #6e6d6c;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Section Packages End */
+
+.booking{
+    width: 80%;
+    margin: auto;
+}
+
+.heading-title{
+    margin-top: 70px;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+
+.booking .book-form{
+    padding: 2rem;
+    background: #a09a9a;
+}
+
+.booking .book-form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.booking .book-form .flex .inputBox{
+    flex: 1 1 41rem;
+}
+
+.booking .book-form .flex .inputBox input{
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: #030303;
+    text-transform: none;
+    margin-top: 1.5rem;
+    border: 2px solid black;
+}
+
+.booking .book-form .flex .inputBox input:focus{
+    background: #000;
+    color: white;
+}
+
+.booking .book-form .flex .inputBox input:focus::placeholder{
+    color: #e9dddd;
+}
+
+.booking .book-form .flex .inputBox span{
+    font-size: 1.5rem;
+    color: #100f0f;
+}
+
+.booking .btn{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    padding: 20px 30px 20px 30px;
+    align-items: center;
+    justify-content: center;
+    left: 45%;
+    font-size: 19px;
+}
+
+.booking .btn:hover{
+    background-color: black;
+    transition: 1s;
+}
+
+@media(max-width: 700px) {
+    html{
+        font-size: 50%;
+    }
+
+        .booking .btn {
+            margin-top: 1rem;
+            font-size: 0.8rem;
+            padding: 10px 20px 10px 20px;
+            align-items: center;
+            justify-content: center;
+            left: 40%;
+            font-size: 13px;
+        }
+    
+        .booking .btn:hover {
+            background-color: black;
+            transition: 1s;
+        }
+}

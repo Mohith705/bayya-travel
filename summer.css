@@ -1,0 +1,126 @@
+.winter_heading{
+    background: url("./images/monsoon_background.jpg");
+}
+
+.spring_heading{
+    background: url("images/bg_main.jpeg");
+    background-size: cover;
+}
+
+.monsoon_heading{
+    background: url("./images/header-bg.jpg");
+    background-size: cover;
+}
+
+.destinations{
+    width: 80%;
+    margin: auto;
+}
+
+.destination_box{
+    margin-top: 70px;
+}
+
+.row{
+    margin-top: 0;
+}
+
+.first_destination{
+    padding: 30px 40px 30px 40px;
+    box-shadow: 1px 2px 10px 5px rgb(101, 101, 101);
+    border-radius: 10px;
+}
+
+.row_left{
+    width: 60%;
+    margin-right: 25px;
+}
+
+.row_left img{
+    border-radius: 20px;
+}
+
+.row_right{
+    font-size: 19px;
+}
+
+.row2 {
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px 30px 40px;
+    box-shadow: 1px 2px 10px 5px rgb(101, 101, 101);
+    border-radius: 10px;
+}
+
+.row2_right {
+    width: 60%;
+    margin-right: 25px;
+    border-radius: 12px;
+    border-radius: 15px;
+}
+
+.row2_right img{
+    border-radius: 20px;
+}
+
+.row2_left {
+    font-size: 19px;
+}
+
+.season_heading{
+    margin-bottom: 40px;
+}
+
+/* events */
+.event_heading{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.events{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.event_box{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.event_box img{
+    border-radius: 15px;
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+    .row2{
+        flex-direction: column;
+    }
+    .destinations img{
+        width: 500px;
+        height: 400px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .events{
+        flex-direction: column;
+    }
+
+    .event_box{
+        margin-bottom: 10px;
+    }
+
+    .events img{
+        width: 500px;
+            height: 400px;
+            margin-left: 0;
+            padding-left: 0;
+    }
+}

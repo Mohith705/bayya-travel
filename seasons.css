@@ -1,0 +1,87 @@
+.seasons_header{
+    background-image: url("./images/seasons_main.jpg");
+}
+
+.season_heading{
+    margin-top: 70px;
+}
+
+.about{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 70px;
+}
+
+.video-container{
+    flex: 1 1 42rem;
+}
+
+video{
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.video-container.controls {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.video-container span{
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background: rgb(14, 14, 14);
+    cursor: pointer;
+    margin: 0.7rem;
+}
+
+.video-container span:hover{
+    background: rgb(3, 127, 55);
+}
+
+/* Section Gallary Start */
+.gallary {
+    margin-top: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.gallary-heading{
+    margin-top: 70px;
+    align-items: center;
+    text-align: center;
+}
+
+.gallary .card {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+
+.gallary .card img {
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.gallary .card img:hover {
+    transform: scale(1.1);
+}
+
+/* Section Gallary End */
+
+@media(max-width: 700px) {
+    .gallary{
+        align-items: center;
+        justify-content: center;
+    }
+    .gallary img{
+        width: 450px;
+        height: 300px;
+    }
+}
